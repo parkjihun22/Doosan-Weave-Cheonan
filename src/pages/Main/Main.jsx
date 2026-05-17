@@ -257,12 +257,12 @@ const Main = () => {
 
     <div className={styles.mainImageTextSub}>
       천안 청당동 중심에서 만나는{" "}
-      <span className={styles.greyText}>프리미엄 라이프</span>
+      <span className={styles.greyText}>총 1,202세대 브랜드 대단지 프리미엄</span>
     </div>
 
     <div className={styles.mainImageTitleBox}>
       <div className={styles.mainImageText}>
-        천안이 기다려온 새로운 주거 가치
+      계약금 0원 계약축하금 증정
       </div>
 
       <div className={styles.mainImageLine}></div>
@@ -276,7 +276,6 @@ const Main = () => {
         지하 2층 ~ 지상 최고 29층, 총 1,202세대 브랜드 대단지<br/>
         청수행정타운 생활권과 프리미엄 미래가치를 누리다
       </div>
-
 
                 <button
                   onClick={() => setIsInterestPopupOpen(true)}

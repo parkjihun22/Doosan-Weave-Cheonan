@@ -262,7 +262,7 @@ const Main = () => {
 
     <div className={styles.mainImageTitleBox}>
       <div className={styles.mainImageText}>
-      계약금 0원 계약축하금 증정
+      천안이 기다려온 새로운 주거 가치
       </div>
 
       <div className={styles.mainImageLine}></div>

@@ -62,51 +62,64 @@ const BusinessGuide2 = () => {
 
 	return (
 		<div className={styles.container}>
-				<Helmet>
-				{/* 필수 메타 */}
-				<title>천안 두산위브 더제니스 - 계약서류안내</title>
-				<meta
-					name="description"
-					content="천안 두산위브 더제니스 분양(청약) 계약을 위한 서류 안내. 신분증, 주민등록등본, 인감증명서 등 필수 제출서류와 준비 절차, 유의사항을 빠르게 확인하세요."
-				/>
-				<meta name="robots" content="index,follow" />
-				<link
-					rel="canonical"
-					href="https://www.lotte-castl.co.kr/BusinessGuide/documents"
-				/>
+<Helmet>
+  {/* 필수 메타 */}
+  <title>천안 두산위브 더제니스 - 공급정보</title>
+  <meta
+    name="description"
+    content="천안 두산위브 더제니스 공급정보를 확인하세요. 전용 84㎡ A·B·C 타입 구성, 세대수, 공급 규모 및 분양 관련 핵심 정보를 안내합니다."
+  />
+  <meta name="robots" content="index,follow" />
+  <link
+    rel="canonical"
+    href="https://www.doosanweavethezenith.co.kr/BusinessGuide/documents"
+  />
 
-				{/* Open Graph */}
-				<meta property="og:type" content="website" />
-				<meta property="og:site_name" content="천안 두산위브 더제니스" />
-				<meta property="og:title" content="천안 두산위브 더제니스 - 계약서류안내" />
-				<meta
-					property="og:description"
-					content="천안 두산위브 더제니스 계약서류 안내: 신분증·주민등록등본·인감증명서 등 필수 서류와 준비 절차, 유의사항을 확인하세요."
-				/>
-				<meta property="og:url" content="https://www.lotte-castl.co.kr/BusinessGuide/documents" />
-				<meta property="og:image" content="https://www.lotte-castl.co.kr/Main1.png" />
-				</Helmet>
+  {/* Open Graph */}
+  <meta property="og:type" content="website" />
+  <meta property="og:site_name" content="천안 두산위브 더제니스" />
+  <meta property="og:title" content="천안 두산위브 더제니스 - 공급정보" />
+  <meta
+    property="og:description"
+    content="천안 두산위브 더제니스 공급정보: 총 1,202세대 규모, 전용 84㎡ A·B·C 타입 구성과 공급 내용을 확인하세요."
+  />
+  <meta
+    property="og:url"
+    content="https://www.doosanweavethezenith.co.kr/BusinessGuide/documents"
+  />
+  <meta
+    property="og:image"
+    content="https://www.doosanweavethezenith.co.kr/Main1.png"
+  />
+</Helmet>
 
+<Header isChanged={isScroll} />
+<FixIcon />
+<Bener title="공급정보" />
+<MenuBar contents={menuContents} />
 
-				<Header isChanged={isScroll} />
-				<FixIcon />
-				<Bener title="계약서류안내" />
-				<MenuBar contents={menuContents} />
-				{/* <h1> 태그를 사용하여 페이지 제목 설정 (SEO 최적화) */}
-				<h1 className={styles.screenReaderOnly}>천안 두산위브 더제니스 - 계약서류안내</h1>
-				<p className={styles.screenReaderOnly}>
-				본 페이지는 분양(청약) 당첨 후 계약 체결을 위해 필요한 서류를 안내합니다.
-				제출 서류 목록과 준비 방법, 제출 기한 및 유의사항을 확인해 정확하고 빠르게 진행하세요.
-				</p>
+{/* SEO 최적화 */}
+<h1 className={styles.screenReaderOnly}>천안 두산위브 더제니스 - 공급정보</h1>
 
-				<div className={styles.textBox}>
-				<div>강화의 새로운 기준 위에</div>
-				<div>천안 두산위브 더제니스, 계약서류를 미리 준비하세요.</div>
-				</div>
+<p className={styles.screenReaderOnly}>
+천안 두산위브 더제니스 공급정보 페이지입니다.
+충청남도 천안시 동남구 청당동 310-6번지 일원에 조성되는
+총 1,202세대 규모의 브랜드 대단지로,
+전용 84㎡ A·B·C 타입 구성과 세대별 공급 내용,
+분양 관련 핵심 정보를 안내합니다.
+</p>
 
+<div className={styles.textBox}>
+  <div>천안 청당동 프리미엄 라이프</div>
+  <div>천안 두산위브 더제니스 공급정보를 확인하세요.</div>
+</div>
 
-			{/* 이미지에 isImageVisible 상태 적용 */}
-			<img className={`${styles.image4} ${isImageVisible ? styles.visible : ''}`} src={page1} alt="천안 두산위브 더제니스계약서류안내-image1" />
+{/* 이미지에 isImageVisible 상태 적용 */}
+<img
+  className={`${styles.image4} ${isImageVisible ? styles.visible : ''}`}
+  src={page1}
+  alt="천안 두산위브 더제니스 공급정보 이미지1"
+/>
 
 
 			<Footer /> 

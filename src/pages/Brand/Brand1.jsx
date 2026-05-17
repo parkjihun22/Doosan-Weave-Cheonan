@@ -51,9 +51,9 @@ const Brand1 = () => {
   <title>천안 두산위브 더제니스 - 브랜드 소개</title>
   <meta
     name="description"
-    content="롯데건설 롯데캐슬(CASTLE)의 브랜드 철학과 가치를 소개합니다. 프리미엄 품질 기준과 첨단 시스템, 커뮤니티 설계로 미래의 주거 가치를 제시하는 천안 두산위브 더제니스."
+    content="두산위브 더제니스 브랜드 철학과 가치를 소개합니다. 프리미엄 주거 품격과 차별화된 설계, 커뮤니티, 생활 인프라를 담은 천안 두산위브 더제니스."
   />
-  <link rel="canonical" href="https://www.lotte-castl.co.kr/Brand/intro" />
+  <link rel="canonical" href="https://www.doosanweavethezenith.co.kr/Brand/intro" />
   <meta name="robots" content="index,follow" />
 
   {/* Open Graph */}
@@ -62,10 +62,10 @@ const Brand1 = () => {
   <meta property="og:title" content="천안 두산위브 더제니스 - 브랜드 소개" />
   <meta
     property="og:description"
-    content="롯데캐슬 브랜드 소개: 프리미엄 주거문화와 고객 중심 설계, 고급 자재·첨단 시스템을 담은 천안 두산위브 더제니스의 철학을 소개합니다."
+    content="두산위브 더제니스 브랜드 소개: 천안 청당동 중심에서 만나는 1,202세대 프리미엄 대단지의 주거 가치와 브랜드 철학을 소개합니다."
   />
-  <meta property="og:url" content="https://www.lotte-castl.co.kr/Brand/intro" />
-  <meta property="og:image" content="https://www.lotte-castl.co.kr/images/og/main.jpg" />
+  <meta property="og:url" content="https://www.doosanweavethezenith.co.kr/Brand/intro" />
+  <meta property="og:image" content="https://www.doosanweavethezenith.co.kr/images/og/main.jpg" />
 </Helmet>
 
 <Header isChanged={isScroll} />
@@ -77,14 +77,16 @@ const Brand1 = () => {
 {/* <h1> 태그를 사용하여 페이지 제목 설정 (SEO 최적화) */}
 <h1 className={styles.screenReaderOnly}>천안 두산위브 더제니스 - 브랜드 소개</h1>
 <p className={styles.screenReaderOnly}>
-  천안 두산위브 더제니스는 프리미엄 주거 브랜드 롯데캐슬(CASTLE)을 적용한 주거 단지입니다.
-  고객 중심의 설계, 고급 마감재, 첨단 시스템으로 차별화된 주거 품격을 갖추었습니다.
-  롯데건설의 신뢰와 기술력으로 완성된 천안 두산위브 더제니스는 미래 지향적인 주거 가치를 제시합니다.
+  천안 두산위브 더제니스는 두산건설의 하이엔드 주거 브랜드 두산위브 더제니스가 적용된
+  프리미엄 브랜드 아파트입니다. 충청남도 천안시 동남구 청당동 310-6번지 일원에 조성되며,
+  지하 2층부터 지상 최고 29층, 10개동, 총 1,202세대 규모로 계획된 대단지입니다.
+  전용 84㎡ 중심의 실거주 선호 평면과 청수행정타운 생활권, 천안 주요 교통망, 교육·생활 인프라를
+  함께 누릴 수 있는 천안두산위브더제니스의 주거 가치를 소개합니다.
 </p>
 
 <div className={`${styles.textBox} ${isTextVisible ? styles.active : ''}`}>
-  <div>생활의 모든 것을 한걸음에</div>
-  <div>롯데캐슬, 이천의 중심에 서다</div>
+  <div>천안 청당동 중심에서 만나는</div>
+  <div>두산위브 더제니스 브랜드 프리미엄</div>
 </div>
 
 

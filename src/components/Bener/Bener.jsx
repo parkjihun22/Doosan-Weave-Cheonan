@@ -50,15 +50,15 @@ const contents = (text, isLoaded) => {
     return (
       <>
         <div className={`${styles.text} ${isLoaded ? styles.showText : ''}`}>
-          천안의 중심에서 완성되는 하이엔드 랜드마크 라이프.
+          천안 청당동 중심에서 만나는 1,202세대 하이엔드 브랜드 대단지.
         </div>
 
         <div className={`${styles.text} ${isLoaded ? styles.showText : ''}`}>
-          두산위브 더제니스 브랜드 프리미엄으로 완성되는 차별화된 주거가치.
+          두산위브더제니스 센트럴 천안, 천안 주거가치를 새롭게 완성하다.
         </div>
 
         <div className={`${styles.text} ${isLoaded ? styles.showText : ''}`}>
-          교통·생활·교육·미래가치를 모두 누리는 천안 두산위브 더제니스.
+          교통·교육·행정·생활 인프라를 가까이 누리는 천안 두산위브 더제니스.
         </div>
       </>
     );
@@ -73,15 +73,15 @@ const contents = (text, isLoaded) => {
     return (
       <>
         <div className={`${styles.text} ${isLoaded ? styles.showText : ''}`}>
-          천안의 새로운 스카이라인을 완성할 프리미엄 대단지.
+          지하 2층~지상 29층, 10개동 총 1,202세대 프리미엄 대단지.
         </div>
 
         <div className={`${styles.text} ${isLoaded ? styles.showText : ''}`}>
-          우수한 광역교통망과 생활 인프라를 모두 누리는 중심 입지.
+          전용 84㎡ A·B·C 타입으로 구성된 실거주 중심 브랜드 아파트.
         </div>
 
         <div className={`${styles.text} ${isLoaded ? styles.showText : ''}`}>
-          혁신설계와 브랜드 프리미엄이 어우러진 미래가치 높은 주거공간.
+          청수행정타운 생활권과 천안 주요 교통망을 누리는 중심 입지.
         </div>
 
         <div className={`${styles.text} ${isLoaded ? styles.showText : ''}`}>
@@ -93,11 +93,11 @@ const contents = (text, isLoaded) => {
     return (
       <>
         <div className={`${styles.text} ${isLoaded ? styles.showText : ''}`}>
-          천안 주요 생활권을 빠르게 연결하는 우수한 교통환경.
+          천안대로·남천안IC·천안JC를 통한 빠른 광역 교통환경.
         </div>
 
         <div className={`${styles.text} ${isLoaded ? styles.showText : ''}`}>
-          교육·쇼핑·문화·자연까지 모두 가까운 프리미엄 생활 인프라.
+          교육·쇼핑·행정·문화 인프라를 모두 가까이 누리는 프리미엄 입지.
         </div>
       </>
     );
@@ -105,15 +105,15 @@ const contents = (text, isLoaded) => {
     return (
       <>
         <div className={`${styles.text} ${isLoaded ? styles.showText : ''}`}>
-          품격 있는 외관 설계와 차별화된 랜드마크 디자인.
+          10개동 1,202세대로 완성되는 청당동 랜드마크 대단지.
         </div>
 
         <div className={`${styles.text} ${isLoaded ? styles.showText : ''}`}>
-          입주민 라이프스타일을 고려한 다양한 커뮤니티와 조경 특화설계.
+          커뮤니티·조경·주차 편의를 고려한 실거주 중심 특화설계.
         </div>
 
         <div className={`${styles.text} ${isLoaded ? styles.showText : ''}`}>
-          천안 두산위브 더제니스, 프리미엄의 기준을 새롭게 완성하다.
+          천안 두산위브 더제니스, 새로운 주거 프리미엄의 기준.
         </div>
       </>
     );

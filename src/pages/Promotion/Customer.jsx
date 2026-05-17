@@ -70,10 +70,10 @@ export default function Customer() {
   <title>천안 두산위브 더제니스 - 관심고객등록</title>
   <meta
     name="description"
-    content="천안 두산위브 더제니스 관심고객 등록 시 모델하우스 오픈·방문예약, 청약 일정, 현장 위치 등 최신 정보를 가장 먼저 받아보실 수 있습니다."
+    content="천안 두산위브 더제니스 관심고객 등록을 통해 모델하우스 방문예약, 청약 일정, 분양 정보, 현장 위치 등 최신 소식을 가장 먼저 받아보세요."
   />
   <meta name="robots" content="index,follow" />
-  <link rel="canonical" href="https://www.lotte-castl.co.kr/Promotion/Customer" />
+  <link rel="canonical" href="https://www.doosanweavethezenith.co.kr/Promotion/Customer" />
 
   {/* Open Graph */}
   <meta property="og:type" content="website" />
@@ -81,10 +81,10 @@ export default function Customer() {
   <meta property="og:title" content="천안 두산위브 더제니스 - 관심고객등록" />
   <meta
     property="og:description"
-    content="관심고객 등록으로 모델하우스 방문예약, 청약·분양 일정, 현장 위치 등 주요 안내를 우선 받아보세요."
+    content="관심고객 등록으로 천안 두산위브 더제니스 모델하우스 방문예약, 청약 일정, 분양 정보, 현장 소식을 우선 받아보세요."
   />
-  <meta property="og:url" content="https://www.lotte-castl.co.kr/Promotion/Customer" />
-  <meta property="og:image" content="https://www.lotte-castl.co.kr/img/og/customer.jpg" />
+  <meta property="og:url" content="https://www.doosanweavethezenith.co.kr/Promotion/Customer" />
+  <meta property="og:image" content="https://www.doosanweavethezenith.co.kr/img/og/customer.jpg" />
   <meta property="og:image:width" content="1200" />
   <meta property="og:image:height" content="630" />
 
@@ -93,10 +93,10 @@ export default function Customer() {
   <meta name="twitter:title" content="천안 두산위브 더제니스 - 관심고객등록" />
   <meta
     name="twitter:description"
-    content="모델하우스 방문예약, 청약 일정, 현장 위치 등 최신 소식을 가장 먼저 받아보세요."
+    content="모델하우스 방문예약, 청약 일정, 분양 정보 등 최신 소식을 가장 먼저 받아보세요."
   />
-  <meta name="twitter:image" content="https://www.lotte-castl.co.kr/img/og/customer.jpg" />
-  <meta name="twitter:url" content="https://www.lotte-castl.co.kr/Promotion/Customer" />
+  <meta name="twitter:image" content="https://www.doosanweavethezenith.co.kr/img/og/customer.jpg" />
+  <meta name="twitter:url" content="https://www.doosanweavethezenith.co.kr/Promotion/Customer" />
 
   {/* JSON-LD (대표 이미지/브레드크럼 포함) */}
   <script type="application/ld+json">
@@ -104,20 +104,30 @@ export default function Customer() {
       "@context": "https://schema.org",
       "@type": "WebPage",
       "name": "천안 두산위브 더제니스 - 관심고객등록",
-      "url": "https://www.lotte-castl.co.kr/Promotion/Customer",
+      "url": "https://www.doosanweavethezenith.co.kr/Promotion/Customer",
       "description":
-        "천안 두산위브 더제니스 관심고객 등록 시 모델하우스 방문예약, 청약 일정, 현장 위치 등 주요 정보를 우선 제공해 드립니다.",
+        "천안 두산위브 더제니스 관심고객 등록 시 모델하우스 방문예약, 청약 일정, 분양 정보, 현장 위치 등 최신 정보를 우선 제공합니다.",
       "primaryImageOfPage": {
         "@type": "ImageObject",
-        "contentUrl": "https://www.lotte-castl.co.kr/img/og/customer.jpg",
+        "contentUrl": "https://www.doosanweavethezenith.co.kr/img/og/customer.jpg",
         "width": 1200,
         "height": 630
       },
       "breadcrumb": {
         "@type": "BreadcrumbList",
         "itemListElement": [
-          { "@type": "ListItem", "position": 1, "name": "홈", "item": "https://www.lotte-castl.co.kr/" },
-          { "@type": "ListItem", "position": 2, "name": "관심고객등록", "item": "https://www.lotte-castl.co.kr/Promotion/Customer" }
+          {
+            "@type": "ListItem",
+            "position": 1,
+            "name": "홈",
+            "item": "https://www.doosanweavethezenith.co.kr/"
+          },
+          {
+            "@type": "ListItem",
+            "position": 2,
+            "name": "관심고객등록",
+            "item": "https://www.doosanweavethezenith.co.kr/Promotion/Customer"
+          }
         ]
       }
     })}

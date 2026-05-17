@@ -48,9 +48,9 @@ const Brand2 = () => {
   <title>천안 두산위브 더제니스 - 홍보영상</title>
   <meta
     name="description"
-    content="천안 두산위브 더제니스 홍보영상으로 세대 설계, 지상 차 없는 공원형 단지, 커뮤니티 시설과 이천 도심 생활 인프라·광역 접근성을 생생하게 확인하세요."
+    content="천안 두산위브 더제니스 홍보영상을 통해 브랜드 가치와 단지 설계, 프리미엄 커뮤니티, 청당동 생활 인프라와 미래가치를 확인해보세요."
   />
-  <link rel="canonical" href="https://www.lotte-castl.co.kr/Brand/video" />
+  <link rel="canonical" href="https://www.doosanweavethezenith.co.kr/Brand/video" />
   <meta name="robots" content="index,follow" />
 
   {/* OG 태그 */}
@@ -59,19 +59,19 @@ const Brand2 = () => {
   <meta property="og:title" content="천안 두산위브 더제니스 - 홍보영상" />
   <meta
     property="og:description"
-    content="천안 두산위브 더제니스 홍보영상: 공원형 단지 설계, 커뮤니티, 이천 도심 인프라와 광역 접근성을 영상으로 만나보세요."
+    content="천안 두산위브 더제니스 홍보영상: 청당동 중심 입지와 브랜드 프리미엄, 특화설계와 커뮤니티를 영상으로 만나보세요."
   />
-  <meta property="og:url" content="https://www.lotte-castl.co.kr/Brand/video" />
-  <meta property="og:image" content="https://www.lotte-castl.co.kr/images/og/main.jpg" />
+  <meta property="og:url" content="https://www.doosanweavethezenith.co.kr/Brand/video" />
+  <meta property="og:image" content="https://www.doosanweavethezenith.co.kr/images/og/main.jpg" />
 
   {/* Twitter */}
   <meta name="twitter:card" content="summary_large_image" />
   <meta name="twitter:title" content="천안 두산위브 더제니스 - 홍보영상" />
   <meta
     name="twitter:description"
-    content="세대 설계와 커뮤니티, 공원형 단지와 이천 도심 인프라·접근성을 영상으로 확인하세요."
+    content="천안 청당동 프리미엄 입지와 1,202세대 브랜드 대단지의 새로운 가치를 영상으로 확인하세요."
   />
-  <meta name="twitter:image" content="https://www.lotte-castl.co.kr/images/og/main.jpg" />
+  <meta name="twitter:image" content="https://www.doosanweavethezenith.co.kr/images/og/main.jpg" />
 </Helmet>
 
 <Header isChanged={isScroll} />
@@ -82,15 +82,18 @@ const Brand2 = () => {
 
 {/* <h1> 태그를 사용하여 페이지 제목 설정 (SEO 최적화) */}
 <h1 className={styles.screenReaderOnly}>천안 두산위브 더제니스 - 홍보영상</h1>
+
 <p className={styles.screenReaderOnly}>
-  천안 두산위브 더제니스의 홍보영상을 통해 공원형 단지 설계와 커뮤니티,
-  이천 도심의 생활 인프라와 광역 접근성을 생생하게 확인하세요.
-  현대적 감각과 편의성이 결합된 새로운 라이프스타일을 영상으로 만나보세요.
+  천안 두산위브 더제니스 홍보영상을 통해 프리미엄 브랜드 가치와
+  차별화된 단지 설계, 커뮤니티 시설, 청수행정타운 생활권 및
+  광역 교통 인프라를 확인해보세요.
+  충청남도 천안시 동남구 청당동 중심에서 완성되는
+  총 1,202세대 대단지의 미래가치를 영상으로 만나보세요.
 </p>
 
 <div className={`${styles.textBox} ${isTextVisible ? styles.active : ''}`}>
-  <div>이천의 새로운 기준 위에</div>
-  <div>천안 두산위브 더제니스가 자부심으로 찾아옵니다.</div>
+  <div>천안의 새로운 랜드마크 위에</div>
+  <div>두산위브 더제니스가 프리미엄을 완성합니다.</div>
 </div>
 
 

@@ -54,9 +54,9 @@ const BusinessGuide2 = () => {
   <title>천안 두산위브 더제니스 - 분양일정</title>
   <meta
     name="description"
-    content="천안 두산위브 더제니스 분양(청약) 일정을 한눈에 확인하세요. 특별공급·1·2순위 접수, 모델하우스 오픈, 당첨자 발표 및 정당계약 등 핵심 일정을 안내합니다."
+    content="천안 두산위브 더제니스 분양일정을 확인하세요. 특별공급, 1순위·2순위 청약, 당첨자 발표, 정당계약 등 청약 핵심 일정을 안내합니다."
   />
-  <link rel="canonical" href="https://www.lotte-castl.co.kr/BusinessGuide/plan" />
+  <link rel="canonical" href="https://www.doosanweavethezenith.co.kr/BusinessGuide/plan" />
   <meta name="robots" content="index,follow" />
 </Helmet>
 
@@ -69,12 +69,13 @@ const BusinessGuide2 = () => {
 {/* SEO 최적화를 위한 h1/p 태그 */}
 <h1 className={styles.screenReaderOnly}>천안 두산위브 더제니스 - 분양일정</h1>
 <p className={styles.screenReaderOnly}>
-  천안 두산위브 더제니스의 분양(청약) 일정을 한곳에서 확인하세요.
-  특별공급·1·2순위 청약 접수부터 당첨자 발표, 정당계약까지 단계별 일정을 안내합니다.
+  천안 두산위브 더제니스의 분양일정을 한곳에서 확인하세요.
+  특별공급, 1순위·2순위 청약 접수부터 당첨자 발표, 정당계약까지
+  청당동 브랜드 대단지의 단계별 분양 정보를 안내합니다.
 </p>
 
 <div className={styles.textBox}>
-  <div>이천 도심의 새로운 주거 기준</div>
+  <div>천안 청당동의 새로운 주거 기준</div>
   <div>천안 두산위브 더제니스, 분양일정을 확인하세요.</div>
 </div>
 

@@ -50,102 +50,101 @@ const ComplexGuide1 = () => {
 
 	return (
 		<div className={styles.container}>
-<Helmet>
-  {/* 페이지별 메타 */}
-  <title>천안 두산위브 더제니스 - 단지배치도</title>
-  <meta
-    name="description"
-    content="천안 두산위브 더제니스 단지배치도: 지상 차 없는 공원형 단지, 조경·커뮤니티·동별 위치·보행 동선 안내"
-  />
-  <meta name="robots" content="index,follow" />
-  <link rel="canonical" href="https://www.lotte-castl.co.kr/ComplexGuide/intro" />
+    <Helmet>
+      {/* 페이지별 메타 */}
+      <title>천안 두산위브 더제니스 - 단지배치도</title>
+      <meta
+        name="description"
+        content="천안 두산위브 더제니스 단지배치도 안내. 총 1,202세대, 10개동 규모의 단지 구성과 동별 배치, 조경, 커뮤니티, 주차 및 보행 동선을 확인하세요."
+      />
+      <meta name="robots" content="index,follow" />
+      <link rel="canonical" href="https://www.doosanweavethezenith.co.kr/ComplexGuide/intro" />
 
-  {/* Open Graph */}
-  <meta property="og:type" content="website" />
-  <meta property="og:site_name" content="천안 두산위브 더제니스" />
-  <meta property="og:title" content="천안 두산위브 더제니스 - 단지배치도" />
-  <meta
-    property="og:description"
-    content="동·호 배치, 조경·커뮤니티, 주차·보행 동선까지 생활 편의를 극대화한 공원형 단지 배치를 확인하세요."
-  />
-  <meta property="og:url" content="https://www.lotte-castl.co.kr/ComplexGuide/intro" />
-  <meta property="og:image" content="https://www.lotte-castl.co.kr/img/og/complex.jpg" />
-  <meta property="og:image:width" content="1200" />
-  <meta property="og:image:height" content="630" />
+      {/* Open Graph */}
+      <meta property="og:type" content="website" />
+      <meta property="og:site_name" content="천안 두산위브 더제니스" />
+      <meta property="og:title" content="천안 두산위브 더제니스 - 단지배치도" />
+      <meta
+        property="og:description"
+        content="천안 청당동 1,202세대 브랜드 대단지의 동별 배치, 조경, 커뮤니티, 주차 및 보행 동선을 확인하세요."
+      />
+      <meta property="og:url" content="https://www.doosanweavethezenith.co.kr/ComplexGuide/intro" />
+      <meta property="og:image" content="https://www.doosanweavethezenith.co.kr/img/og/complex.jpg" />
+      <meta property="og:image:width" content="1200" />
+      <meta property="og:image:height" content="630" />
 
-  {/* Twitter */}
-  <meta name="twitter:card" content="summary_large_image" />
-  <meta name="twitter:title" content="천안 두산위브 더제니스 - 단지배치도" />
-  <meta
-    name="twitter:description"
-    content="지상 차 없는 공원형 단지 설계와 조경·커뮤니티·주차·동선 계획을 한눈에."
-  />
-  <meta name="twitter:image" content="https://www.lotte-castl.co.kr/img/og/complex.jpg" />
-  <meta name="twitter:url" content="https://www.lotte-castl.co.kr/ComplexGuide/intro" />
+      {/* Twitter */}
+      <meta name="twitter:card" content="summary_large_image" />
+      <meta name="twitter:title" content="천안 두산위브 더제니스 - 단지배치도" />
+      <meta
+        name="twitter:description"
+        content="천안 두산위브 더제니스 단지배치도에서 10개동 구성, 조경, 커뮤니티, 주차 및 보행 동선을 확인하세요."
+      />
+      <meta name="twitter:image" content="https://www.doosanweavethezenith.co.kr/img/og/complex.jpg" />
+      <meta name="twitter:url" content="https://www.doosanweavethezenith.co.kr/ComplexGuide/intro" />
 
-  {/* JSON-LD */}
-  <script type="application/ld+json">
-    {JSON.stringify({
-      "@context": "https://schema.org",
-      "@type": "WebPage",
-      "name": "천안 두산위브 더제니스 - 단지배치도",
-      "url": "https://www.lotte-castl.co.kr/ComplexGuide/intro",
-      "description":
-        "천안 두산위브 더제니스 단지배치도: 동별 위치, 조경, 커뮤니티 시설, 주차·보행 동선 설계를 확인하세요.",
-      "primaryImageOfPage": {
-        "@type": "ImageObject",
-        "contentUrl": "https://www.lotte-castl.co.kr/img/og/complex.jpg",
-        "width": 1200,
-        "height": 630
-      },
-      "breadcrumb": {
-        "@type": "BreadcrumbList",
-        "itemListElement": [
-          {
-            "@type": "ListItem",
-            "position": 1,
-            "name": "홈",
-            "item": "https://www.lotte-castl.co.kr/"
+      {/* JSON-LD */}
+      <script type="application/ld+json">
+        {JSON.stringify({
+          "@context": "https://schema.org",
+          "@type": "WebPage",
+          "name": "천안 두산위브 더제니스 - 단지배치도",
+          "url": "https://www.doosanweavethezenith.co.kr/ComplexGuide/intro",
+          "description":
+            "천안 두산위브 더제니스 단지배치도 페이지입니다. 총 1,202세대, 10개동 규모의 단지 구성과 동별 위치, 조경, 커뮤니티 시설, 주차 및 보행 동선을 확인하세요.",
+          "primaryImageOfPage": {
+            "@type": "ImageObject",
+            "contentUrl": "https://www.doosanweavethezenith.co.kr/img/og/complex.jpg",
+            "width": 1200,
+            "height": 630
           },
-          {
-            "@type": "ListItem",
-            "position": 2,
-            "name": "단지배치도",
-            "item": "https://www.lotte-castl.co.kr/ComplexGuide/intro"
+          "breadcrumb": {
+            "@type": "BreadcrumbList",
+            "itemListElement": [
+              {
+                "@type": "ListItem",
+                "position": 1,
+                "name": "홈",
+                "item": "https://www.doosanweavethezenith.co.kr/"
+              },
+              {
+                "@type": "ListItem",
+                "position": 2,
+                "name": "단지배치도",
+                "item": "https://www.doosanweavethezenith.co.kr/ComplexGuide/intro"
+              }
+            ]
           }
-        ]
-      }
-    })}
-  </script>
-</Helmet>
+        })}
+      </script>
+    </Helmet>
 
-<Header isChanged={isScroll} />
-<FixIcon />
-<Bener title="단지안내" />
-<MenuBar contents={menuContents} />
+    <Header isChanged={isScroll} />
+    <FixIcon />
+    <Bener title="단지안내" />
+    <MenuBar contents={menuContents} />
 
-{/* <h1> 태그를 사용하여 페이지 제목 설정 (SEO 최적화) */}
-<h1 className={styles.screenReaderOnly}>천안 두산위브 더제니스 - 단지배치도</h1>
-<p className={styles.screenReaderOnly}>
-  단지 배치도 페이지는 천안 두산위브 더제니스의 전체 단지 구성도를 제공합니다.
-  21개동 배치, 녹지·조경 계획, 커뮤니티 시설 위치와 지상 차 없는 공원형 동선 계획을
-  시각적으로 안내하여 단지 내 생활을 쉽게 계획할 수 있도록 돕습니다.
-</p>
+    {/* <h1> 태그를 사용하여 페이지 제목 설정 (SEO 최적화) */}
+    <h1 className={styles.screenReaderOnly}>천안 두산위브 더제니스 - 단지배치도</h1>
+    <p className={styles.screenReaderOnly}>
+      단지배치도 페이지는 천안 두산위브 더제니스의 전체 단지 구성을 안내합니다.
+      총 1,202세대, 10개동 규모의 배치와 동별 위치, 조경 계획, 커뮤니티 시설,
+      주차 및 보행 동선을 시각적으로 확인할 수 있습니다.
+      천안 청당동 중심에서 완성되는 두산위브 더제니스의 단지 가치를 확인하세요.
+    </p>
 
-<div className={styles.textBox}>
-  <div>이천의 새로운 기준 위에</div>
-  <div>천안 두산위브 더제니스가 자부심으로 찾아옵니다.</div>
-</div>
+    <div className={styles.textBox}>
+      <div>천안 청당동 중심에 완성되는</div>
+      <div>두산위브 더제니스 브랜드 대단지</div>
+    </div>
 
-
-
-			{/* 이미지에 애니메이션 효과 추가 */}
-			<img
-				className={`${styles.image2} ${isImage2Loaded ? styles.showImage2 : ''}`}
-				src={page1}
-				alt="천안 두산위브 더제니스단지배치도-image1"
-				onLoad={handleImageLoad}  // 이미지 로드 후 애니메이션 실행
-			/>
+    {/* 이미지에 애니메이션 효과 추가 */}
+    <img
+      className={`${styles.image2} ${isImage2Loaded ? styles.showImage2 : ''}`}
+      src={page1}
+      alt="천안 두산위브 더제니스 단지배치도-image1"
+      onLoad={handleImageLoad}
+    />
 
 
 			

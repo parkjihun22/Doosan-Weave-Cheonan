@@ -71,43 +71,47 @@ const ComplexGuide1 = () => {
     <div className={styles.container}>
 
       
-        <Helmet>
-          <title>천안 두산위브 더제니스 - 모집공고 안내</title>
-          <meta
-            name="description"
-            content="천안 두산위브 더제니스 모집공고를 한눈에 확인하세요. 공급 세대수·공급면적·분양가, 청약 일정·자격, 당첨자 발표·정당계약 및 유의사항을 안내합니다."
-          />
-          <link rel="canonical" href="https://www.lotte-castl.co.kr/SalesInfo/announcement" />
-          <meta name="robots" content="index,follow" />
-        </Helmet>
+<Helmet>
+  <title>천안 두산위브 더제니스 - 모집공고 안내</title>
+  <meta
+    name="description"
+    content="천안 두산위브 더제니스 모집공고를 확인하세요. 공급 세대수, 공급면적, 청약 일정, 청약 자격, 당첨자 발표 및 정당계약 정보를 안내합니다."
+  />
+  <link
+    rel="canonical"
+    href="https://www.doosanweavethezenith.co.kr/SalesInfo/announcement"
+  />
+  <meta name="robots" content="index,follow" />
+</Helmet>
 
+<Header isChanged={isScroll} />
+<FixIcon />
+<Bener title="모집공고안내" />
+<MenuBar contents={menuContents} />
 
-        <Header isChanged={isScroll} />
-        <FixIcon />
-        <Bener title="모집공고안내" />
-        <MenuBar contents={menuContents} />
+{/* <h1> 태그를 사용하여 페이지 제목 설정 (SEO 최적화) */}
+<h1 className={styles.screenReaderOnly}>
+  천안 두산위브 더제니스 - 모집공고 안내
+</h1>
 
-        {/* <h1> 태그를 사용하여 페이지 제목 설정 (SEO 최적화) */}
-        <h1 className={styles.screenReaderOnly}>
-          천안 두산위브 더제니스 - 모집공고 안내
-        </h1>
-        <p className={styles.screenReaderOnly}>
-          본 페이지에서는 천안 두산위브 더제니스의 모집공고 주요 사항을 안내합니다.
-          공급 규모와 면적, 분양가, 청약 일정과 자격, 당첨자 발표 및 정당계약 일정,
-          유의사항을 확인해 청약을 정확하게 준비하세요.
-        </p>
+<p className={styles.screenReaderOnly}>
+  본 페이지에서는 천안 두산위브 더제니스 입주자 모집공고 주요 내용을 안내합니다.
+  총 1,202세대 공급 규모와 전용 84㎡ A·B·C 타입 구성,
+  청약 일정과 청약 자격, 당첨자 발표, 정당계약 일정 및 유의사항을 확인하여
+  청약 준비에 필요한 핵심 정보를 확인하세요.
+</p>
 
-        <div className={styles.textBox}>
-          <div>입주자 모집공고를 확인하세요</div>
-          <div>천안 두산위브 더제니스</div>
-        </div>
+<div className={styles.textBox}>
+  <div>입주자 모집공고를 확인하세요</div>
+  <div>천안 두산위브 더제니스 청약 안내</div>
+</div>
 
-      <img
-        className={`${styles.image2} ${isImage2Loaded ? styles.showImage2 : ''}`}
-        src={page1}
-        alt="천안 두산위브 더제니스모집공고안내-image1"
-        onLoad={handleImageLoad}  // 이미지 로드 후 애니메이션 실행
-         />
+<img
+  className={`${styles.image2} ${isImage2Loaded ? styles.showImage2 : ''}`}
+  src={page1}
+  alt="천안 두산위브 더제니스 모집공고안내-image1"
+  onLoad={handleImageLoad}
+/>
       {/* 입주자 모집공고 PDF로 보기 버튼 */}
        <button onClick={openPDF} className={styles.pdfButton}>
                 <img src={pdfIcon} alt="PDF 아이콘" className={styles.pdfIcon} /> 

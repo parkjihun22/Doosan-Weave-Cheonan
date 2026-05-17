@@ -68,8 +68,8 @@ const FloorPlan4 = () => {
 			<MenuBar contents={menuContents} />
 
 			<div className={styles.textBox}>
-        <div>이천의 새로운 기준 위에</div>
-        <div>천안 두산위브 더제니스가 자부심으로 찾아옵니다.</div>
+			<div>실거주 중심 설계로 완성된</div>
+			<div>천안 두산위브 더제니스 공간을 만나보세요.</div>
       </div>
 
 			{/* 이미지에 애니메이션 효과 추가 */}

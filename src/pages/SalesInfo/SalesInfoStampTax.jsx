@@ -59,7 +59,7 @@ const ComplexGuide1 = () => {
             name="description"
             content="천안 두산위브 더제니스 분양(계약) 시 필요한 인지세 납부 기준과 절차, 금액 및 유의사항을 한눈에 확인하세요."
           />
-          <link rel="canonical" href="https://www.lotte-castl.co.kr/SalesInfo/stampTax" />
+          <link rel="canonical" href="https://www.doosanweavethezenith.co.kr/SalesInfo/stampTax" />
           <meta name="robots" content="index,follow" />
         </Helmet>
 
@@ -72,30 +72,29 @@ const ComplexGuide1 = () => {
       <Bener title="청약안내" />
 
       <MenuBar contents={menuContents} />
-      {/* <h1> 태그를 사용하여 페이지 제목 설정 (SEO 최적화) */}
-      <h1 className={styles.screenReaderOnly}>
-        천안 두산위브 더제니스- 인지세안내
-      </h1>
-      <p className={styles.screenReaderOnly}>
-        천안 두산위브 더제니스의 인지세 안내 페이지는 분양과 관련된 세금
-        정보를 제공합니다. 인지세는 계약서 작성 시 부과되는 세금으로, 이를
-        사전에 파악하고 준비하는 것이 중요합니다. 이 페이지에서는 인지세의 계산
-        방법, 세액, 납부 절차 등을 쉽게 설명하여 고객들이 정확하게 준비할 수
-        있도록 돕습니다.
-      </p>
+{/* <h1> 태그를 사용하여 페이지 제목 설정 (SEO 최적화) */}
+<h1 className={styles.screenReaderOnly}>
+  천안 두산위브 더제니스 - 인지세안내
+</h1>
+<p className={styles.screenReaderOnly}>
+  천안 두산위브 더제니스 인지세 안내 페이지입니다.
+  분양계약서 작성 시 필요한 인지세 납부 기준과 세액, 납부 방법,
+  준비 절차 및 유의사항을 확인할 수 있습니다.
+  계약 전 인지세 정보를 미리 확인하여 정확하고 원활한 계약 진행을 준비하세요.
+</p>
 
-      <div className={styles.textBox}>
-        <div>인터넷 청약하는 방법을 확인하세요</div>
-        <div>소수만 누리는 프리미엄 천안 두산위브 더제니스</div>
-      </div>
+<div className={styles.textBox}>
+  <div>계약 전 꼭 확인해야 할</div>
+  <div>천안 두산위브 더제니스 인지세 안내</div>
+</div>
 
-      {/* 이미지에 애니메이션 효과 추가 */}
-      <img
-        className={`${styles.image2} ${isImage2Loaded ? styles.showImage2 : ''}`}
-        src={page1}
-        alt="천안 두산위브 더제니스인지세안내-image1"
-        onLoad={handleImageLoad}  // 이미지 로드 후 애니메이션 실행
-      />
+{/* 이미지에 애니메이션 효과 추가 */}
+<img
+  className={`${styles.image2} ${isImage2Loaded ? styles.showImage2 : ''}`}
+  src={page1}
+  alt="천안 두산위브 더제니스 인지세안내-image1"
+  onLoad={handleImageLoad}
+/>
 
 
 

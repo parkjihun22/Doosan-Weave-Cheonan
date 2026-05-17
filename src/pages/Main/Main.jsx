@@ -51,36 +51,36 @@ const section3Contents = [
   {
     imgSrc: section3_Image1,
     title: "PREMIUM 01",
-    text1: `브랜드 대단지 스케일`,
-    text2: `총 1,325세대 롯데캐슬 브랜드 대단지<br/>
-            지하 2층~지상 25층 · 21개동 · 공원형 단지`,
+    text1: `총 1,202세대 브랜드 대단지`,
+    text2: `지하 2층~지상 최고 29층 · 총 10개동<br/>
+            천안 청당동 중심에 완성되는 프리미엄 랜드마크`,
     link: "/BusinessGuide/intro",
     linkText: "더 알아보기 >",
   },
   {
     imgSrc: section3_Image2,
     title: "PREMIUM 02",
-    text1: `광역 교통망 모멘텀`,
-    text2: `중부고속도로·송정IC 인접<br/>
-            제2경부선 등 광역도로망 확장 기대`,
+    text1: `광역 교통망 프리미엄`,
+    text2: `천안대로·남천안IC·천안JC 인접<br/>
+            천안 도심 및 수도권 이동 접근성 강화`,
     link: "/LocationEnvironment/intro",
     linkText: "더 알아보기 >",
   },
   {
     imgSrc: section3_Image3,
     title: "PREMIUM 03",
-    text1: `의료·생활 인프라 집약`,
-    text2: `이천터미널·롯데마트·이천병원 인접<br/>
-            도심권 상권·행정기관 밀집`,
+    text1: `생활·행정 인프라 중심`,
+    text2: `청수행정타운 생활권 인접<br/>
+            쇼핑·의료·행정시설을 가까이 누리는 생활환경`,
     link: "/LocationEnvironment/intro",
     linkText: "더 알아보기 >",
   },
   {
     imgSrc: section3_Image4,
     title: "PREMIUM 04",
-    text1: `자연·레저 특화 환경`,
-    text2: `설봉공원·이천온천·산책로 등 자연 인프라<br/>
-            여유로운 주말 힐링 라이프`,
+    text1: `쾌적한 자연과 조화로운 환경`,
+    text2: `공원과 녹지가 어우러진 주거환경<br/>
+            여유로운 일상을 누리는 프리미엄 라이프`,
     link: "/LocationEnvironment/primium",
     linkText: "더 알아보기 >",
   },
@@ -246,36 +246,37 @@ const Main = () => {
           )} */}
 
 <div className={styles.imageContainer}>
-              <img
-                src={mainImage}
-                className={styles.mainImage}
-                alt="동탄 파라곤 3차 메인 이미지"
-              />
-              <div className={styles.overlay}></div>
+  <img
+    src={mainImage}
+    className={styles.mainImage}
+    alt="천안 두산위브 더제니스 메인 이미지"
+  />
+  <div className={styles.overlay}></div>
 
-              <div className={styles.mainImageTextBox}>
+  <div className={styles.mainImageTextBox}>
 
-                <div className={styles.mainImageTextSub}>
-                  동탄2신도시 압도적인{" "}
-                  <span className={styles.greyText}>프리미엄 라이프</span>
-                </div>
+    <div className={styles.mainImageTextSub}>
+      천안 청당동 중심에서 만나는{" "}
+      <span className={styles.greyText}>프리미엄 라이프</span>
+    </div>
 
-                <div className={styles.mainImageTitleBox}>
-                  <div className={styles.mainImageText}>
-                    동탄이 기다려온 새로운 주거 가치 
-                  </div>
+    <div className={styles.mainImageTitleBox}>
+      <div className={styles.mainImageText}>
+        천안이 기다려온 새로운 주거 가치
+      </div>
 
-                  <div className={styles.mainImageLine}></div>
+      <div className={styles.mainImageLine}></div>
 
-                  <div className={styles.mainImageText}>
-                    동탄 파라곤 3차
-                  </div>
+      <div className={styles.mainImageText}>
+        두산위브 더제니스 센트럴 천안
+      </div>
 
-                  <div className={styles.mainImageDesc}>
-                    경기도 화성시 동탄2지구 A58BL에 들어서는<br/>
-                    전용 82㎡ · 108㎡ 총 1,247세대 규모의 대단지 아파트<br/>
-                    동탄2신도시 신주거문화타운의 미래 가치를 누리다
-                  </div>
+      <div className={styles.mainImageDesc}>
+        충청남도 천안시 동남구 청당동 310-6번지 일원에 들어서는<br/>
+        지하 2층 ~ 지상 최고 29층, 총 1,202세대 브랜드 대단지<br/>
+        청수행정타운 생활권과 프리미엄 미래가치를 누리다
+      </div>
+
 
                 <button
                   onClick={() => setIsInterestPopupOpen(true)}
@@ -302,11 +303,12 @@ const Main = () => {
                 <div className={styles.text2}>
                   천안 두산위브 더제니스 POINT
                 </div>
+
                 <div className={styles.text3}>
-                  - 이천 IC·중부고속도로·제2영동고속도로 등 광역 교통망 인접<br />
-                  - 롯데프리미엄아울렛·이마트·병원·공공기관 등 도심 생활 인프라 밀집<br />
-                  - 설봉산·설봉호수·온천 등 자연·여가 인프라로 쾌적한 주거환경<br />
-                  - 지상 차 없는 공원형 단지와 커뮤니티 특화(피트니스·실내골프·작은도서관 등)
+                  - 천안대로·남천안IC·천안JC 등 편리한 광역 교통망 접근성<br />
+                  - 청수행정타운 생활권과 쇼핑·의료·행정 인프라 인접<br />
+                  - 총 1,202세대, 지하 2층~지상 최고 29층 규모 브랜드 대단지<br />
+                  - 전용 84㎡ A·B·C 타입 중심 설계와 커뮤니티 특화 주거환경
                 </div>
 
                 <div className={styles.text4}>
@@ -589,48 +591,49 @@ const Main = () => {
           <Header isChanged={isScroll} />
 
           <div className={styles.imageContainer}>
-            <img
-              src={mobileImageMain}
-              className={styles.mainImage}
-              alt="동탄 파라곤 3차 아파트 모바일 메인 이미지"
-            />
-            <div className={styles.overlay}></div>
+  <img
+    src={mobileImageMain}
+    className={styles.mainImage}
+    alt="천안 두산위브 더제니스 아파트 모바일 메인 이미지"
+  />
+  <div className={styles.overlay}></div>
 
-            <div className={styles.mainImageTextBox1}>
-              <div className={styles.mainImageTextSub1}>
-                동탄2신도시의 새로운 주거 가치<br/>
-                경기도 화성시 동탄2지구 A58BL<br/>
-                <span className={styles.greyText1}>
-                  총 1,247세대 대단지 프리미엄
-                </span>
-                <br />
-              </div>
+  <div className={styles.mainImageTextBox1}>
+    <div className={styles.mainImageTextSub1}>
+      천안 청당동의 새로운 주거 가치<br/>
+      충청남도 천안시 동남구 청당동 310-6번지 일원<br/>
+      <span className={styles.greyText1}>
+        총 1,202세대 브랜드 대단지 프리미엄
+      </span>
+      <br />
+    </div>
 
-              <div className={styles.mainImageTitleBox1}>
-                <div className={styles.mainImageText1}>
-                  동탄 파라곤 3차
-                </div>
+    <div className={styles.mainImageTitleBox1}>
+      <div className={styles.mainImageText1}>
+        두산위브 더제니스 센트럴 천안
+      </div>
 
-                <div className={styles.mainImageDesc1}>
-                    경기도 화성시 동탄2지구 A58BL에 들어서는<br/>
-                    전용 82㎡ · 108㎡ 총 1,247세대 규모의 대단지 아파트<br/>
-                    동탄2신도시 신주거문화타운의 미래 가치를 누리다
-                  </div>
-              </div>
-            </div>
-          </div>
+      <div className={styles.mainImageDesc1}>
+        충청남도 천안시 동남구 청당동 310-6번지 일원에 들어서는<br/>
+        지하 2층 ~ 지상 최고 29층, 총 1,202세대 브랜드 대단지<br/>
+        청수행정타운 생활권의 미래가치를 누리다
+      </div>
+    </div>
+  </div>
+</div>
 
           <div className={styles.container1}>
             <div className={styles.text1}>Location</div>
             <div className={styles.text2}>
-              천안 두산위브 더제니스 POINT
-            </div>
-            <div className={styles.text3}>
-              - 이천 IC·중부고속도로·제2영동고속도로 등 광역 교통망 인접<br />
-              - 롯데프리미엄아울렛·이마트·병원·공공기관 등 도심 생활 인프라 밀집<br />
-              - 설봉산·설봉호수·온천 등 자연·여가 인프라로 쾌적한 주거환경<br />
-              - 지상 차 없는 공원형 단지와 커뮤니티 특화(피트니스·실내골프·작은도서관 등)
-            </div>
+            천안 두산위브 더제니스 POINT
+          </div>
+
+          <div className={styles.text3}>
+            - 천안대로·남천안IC·천안JC 등 우수한 광역 교통망 접근성<br />
+            - 청수행정타운 생활권과 쇼핑·의료·행정 인프라 인접<br />
+            - 총 1,202세대, 지하 2층~지상 최고 29층 규모 브랜드 대단지<br />
+            - 전용 84㎡ A·B·C 타입 중심 설계와 특화 커뮤니티 주거환경
+          </div>
 
             <div className={styles.text4}>
               {/* 외부 링크대신 방문예약 클릭 시 팝업 호출 */}

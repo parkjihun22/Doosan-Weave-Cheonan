@@ -15,16 +15,15 @@ import { Helmet } from "react-helmet-async";
 
 
 const projectData = [
-	{ label: '사업명', value: '천안 두산위브 더제니스' },
-	{ label: '사업위치', value: '경기도 이천시 중리동 일원' },
-	{ label: '대지면적', value: '추후 공지' },
-	{ label: '건축면적', value: '추후 공지' },
-	{ label: '연면적', value: '추후 공지' },
-	{ label: '용적률', value: '추후 공지' },
-	{ label: '건축규모', value: '지하 2층 ~ 지상 25층, 총 21개동' },
-	{ label: '세대수', value: '총 1,325세대 (일반분양 371세대 포함)' },
-  ];
-  
+  { label: '사업명', value: '두산위브더제니스 센트럴 천안' },
+  { label: '사업위치', value: '충청남도 천안시 동남구 청당동 310-6번지 일원' },
+  { label: '대지면적', value: '추후 공개 예정' },
+  { label: '건축면적', value: '추후 공개 예정' },
+  { label: '연면적', value: '추후 공개 예정' },
+  { label: '용적률', value: '추후 공개 예정' },
+  { label: '건축규모', value: '지하 2층 ~ 지상 최고 29층, 총 10개동' },
+  { label: '세대수', value: '총 1,202세대' },
+];
   
 
 const BusinessGuide1 = () => {
@@ -65,10 +64,10 @@ const BusinessGuide1 = () => {
   <title>천안 두산위브 더제니스 - 사업안내</title>
   <meta
     name="description"
-    content="경기도 이천시 증포동 일원에 들어서는 천안 두산위브 더제니스의 사업 개요를 확인하세요. 총 1,325세대(지하 2층~지상 25층, 21개동), 전용 84A·84B·84C·122㎡ 구성, 입지·규모·입주(예정) 정보 안내."
+    content="충청남도 천안시 동남구 청당동 310-6번지 일원에 조성되는 천안 두산위브 더제니스 사업 개요를 확인하세요. 지하 2층~지상 최고 29층, 10개동, 총 1,202세대, 전용 84㎡ A·B·C 타입 구성."
   />
   <meta name="robots" content="index,follow" />
-  <link rel="canonical" href="https://www.lotte-castl.co.kr/BusinessGuide/intro" />
+  <link rel="canonical" href="https://www.doosanweavethezenith.co.kr/BusinessGuide/intro" />
 
   {/* Open Graph */}
   <meta property="og:type" content="website" />
@@ -76,10 +75,10 @@ const BusinessGuide1 = () => {
   <meta property="og:title" content="천안 두산위브 더제니스 - 사업안내" />
   <meta
     property="og:description"
-    content="이천 도심 중심의 브랜드 대단지. 총 1,325세대, 전용 84A·84B·84C·122㎡ 구성. 위치·규모·타입·입주 정보를 확인하세요."
+    content="천안 청당동 중심에 들어서는 총 1,202세대 브랜드 대단지. 위치·규모·세대수·전용 84㎡ 타입 정보를 확인하세요."
   />
-  <meta property="og:url" content="https://www.lotte-castl.co.kr/BusinessGuide/intro" />
-  <meta property="og:image" content="https://www.lotte-castl.co.kr/img/og/business.jpg" />
+  <meta property="og:url" content="https://www.doosanweavethezenith.co.kr/BusinessGuide/intro" />
+  <meta property="og:image" content="https://www.doosanweavethezenith.co.kr/img/og/business.jpg" />
   <meta property="og:image:width" content="1200" />
   <meta property="og:image:height" content="630" />
 
@@ -88,10 +87,10 @@ const BusinessGuide1 = () => {
   <meta name="twitter:title" content="천안 두산위브 더제니스 - 사업안내" />
   <meta
     name="twitter:description"
-    content="천안 두산위브 더제니스 사업 개요: 총 1,325세대, 전용 84A·84B·84C·122㎡ 구성, 도심 중심 입지와 규모·일정 정보 안내."
+    content="천안 두산위브 더제니스 사업 개요: 청당동 310-6번지 일원, 총 1,202세대, 전용 84㎡ A·B·C 타입, 지하 2층~지상 최고 29층 규모."
   />
-  <meta name="twitter:image" content="https://www.lotte-castl.co.kr/img/og/business.jpg" />
-  <meta name="twitter:url" content="https://www.lotte-castl.co.kr/BusinessGuide/intro" />
+  <meta name="twitter:image" content="https://www.doosanweavethezenith.co.kr/img/og/business.jpg" />
+  <meta name="twitter:url" content="https://www.doosanweavethezenith.co.kr/BusinessGuide/intro" />
 
   {/* JSON-LD (대표 이미지/브레드크럼 포함) */}
   <script type="application/ld+json">
@@ -99,20 +98,20 @@ const BusinessGuide1 = () => {
       "@context": "https://schema.org",
       "@type": "WebPage",
       "name": "천안 두산위브 더제니스 - 사업안내",
-      "url": "https://www.lotte-castl.co.kr/BusinessGuide/intro",
+      "url": "https://www.doosanweavethezenith.co.kr/BusinessGuide/intro",
       "description":
-        "경기도 이천시 증포동 일원에 들어서는 천안 두산위브 더제니스의 사업 개요와 위치, 규모, 타입 구성, 입주(예정) 정보를 제공합니다.",
+        "충청남도 천안시 동남구 청당동 310-6번지 일원에 조성되는 천안 두산위브 더제니스의 사업 개요와 위치, 규모, 세대수, 타입 구성 정보를 제공합니다.",
       "primaryImageOfPage": {
         "@type": "ImageObject",
-        "contentUrl": "https://www.lotte-castl.co.kr/img/og/business.jpg",
+        "contentUrl": "https://www.doosanweavethezenith.co.kr/img/og/business.jpg",
         "width": 1200,
         "height": 630
       },
       "breadcrumb": {
         "@type": "BreadcrumbList",
         "itemListElement": [
-          { "@type": "ListItem", "position": 1, "name": "홈", "item": "https://www.lotte-castl.co.kr/" },
-          { "@type": "ListItem", "position": 2, "name": "사업안내", "item": "https://www.lotte-castl.co.kr/BusinessGuide/intro" }
+          { "@type": "ListItem", "position": 1, "name": "홈", "item": "https://www.doosanweavethezenith.co.kr/" },
+          { "@type": "ListItem", "position": 2, "name": "사업안내", "item": "https://www.doosanweavethezenith.co.kr/BusinessGuide/intro" }
         ]
       }
     })}
@@ -129,16 +128,16 @@ const BusinessGuide1 = () => {
 {/* <h1> 태그를 사용하여 페이지 제목 설정 (SEO 최적화) */}
 <h1 className={styles.screenReaderOnly}>천안 두산위브 더제니스 - 사업안내</h1>
 <p className={styles.screenReaderOnly}>
-  천안 두산위브 더제니스는 이천 도심 생활권에 조성되는 브랜드 대단지입니다.
-  이 페이지에서는 위치와 규모, 전용 84A·84B·84C·122㎡ 타입 구성, 특화 설계와 주변 인프라 등
+  천안 두산위브 더제니스는 충청남도 천안시 동남구 청당동 310-6번지 일원에 조성되는
+  총 1,202세대 규모의 브랜드 대단지입니다. 이 페이지에서는 지하 2층부터 지상 최고 29층,
+  총 10개동 규모와 전용 84㎡ A·B·C 타입 구성, 청수행정타운 생활권과 천안 주요 교통망 등
   사업의 핵심 정보를 안내합니다.
 </p>
 
 <div className={styles.textBox}>
-  <div>이천 도심 프리미엄 라이프</div>
+  <div>천안 청당동 중심 프리미엄 라이프</div>
   <div>천안 두산위브 더제니스, 새로운 주거 중심을 만듭니다.</div>
 </div>
-
 
 
 			<img className={styles.img3} src={page1} alt="천안 두산위브 더제니스-image1"/>

@@ -11,7 +11,7 @@ import InterestPopup from "../InterestPopup/InterestPopup";
 
 // FAMILY SITE 목록 예시
 const partnerSites = [
-  { name: "천안 두산위브 더제니스", url: "https://www.lotte-castl.co.kr/" },
+  { name: "천안 두산위브 더제니스", url: "https://www.doosanweavethezenith.co.kr/" },
 ];
 
 const Footer = () => {
@@ -72,7 +72,7 @@ const Footer = () => {
           {/* 시행사/시공사 */}
           <div className={styles.mobileCompany}>
             <div>
-              <strong>시&nbsp;공&nbsp;사</strong> (주)롯데건설
+              <strong>시&nbsp;공&nbsp;사</strong> (주)두산건설
             </div>
           </div>
 
@@ -128,7 +128,7 @@ const Footer = () => {
               </div>
               <div className={styles.companyInfo}>
                 <div>
-                  <strong>시&nbsp;공&nbsp;사</strong> (주)롯데건설 
+                  <strong>시&nbsp;공&nbsp;사</strong> (주)두산건설 
                 </div>
               </div>
               <div className={styles.buttonRow}>

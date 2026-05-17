@@ -49,9 +49,9 @@ const LocationEnvironment1 = () => {
   <title>천안 두산위브 더제니스 - 프리미엄</title>
   <meta
     name="description"
-    content="천안 두산위브 더제니스 프리미엄을 확인하세요. 1,325세대 브랜드 대단지, 지상 차 없는 공원형 단지, 중부고속도로 및 송정IC 접근성, 특화 커뮤니티와 설봉공원·이천온천 등 자연환경의 핵심 가치를 안내합니다."
+    content="천안 두산위브 더제니스 프리미엄을 확인하세요. 청당동 중심 입지, 총 1,202세대 브랜드 대단지, 청수행정타운 생활권, 천안대로·남천안IC·천안JC 광역교통망과 특화 커뮤니티를 안내합니다."
   />
-  <link rel="canonical" href="https://www.lotte-castl.co.kr/LocationEnvironment/primium" />
+  <link rel="canonical" href="https://www.doosanweavethezenith.co.kr/LocationEnvironment/primium" />
   <meta name="robots" content="index,follow" />
 </Helmet>
 
@@ -65,23 +65,24 @@ const LocationEnvironment1 = () => {
   천안 두산위브 더제니스 - 프리미엄
 </h1>
 <p className={styles.screenReaderOnly}>
-  천안 두산위브 더제니스만의 프리미엄을 만나보세요. 브랜드 대단지, 공원형 단지 설계와 
-  특화된 커뮤니티, 중부고속도로 및 송정IC와의 우수한 접근성, 설봉공원·온천 등 자연 인프라가 조화를 이루는 프리미엄 생활을 제안합니다.
+  천안 두산위브 더제니스만의 프리미엄을 만나보세요.
+  충청남도 천안시 동남구 청당동 310-6번지 일원에 조성되는
+  총 1,202세대 브랜드 대단지로, 청수행정타운 생활권과
+  천안대로, 남천안IC, 천안JC 등 광역 교통망을 가까이 누릴 수 있습니다.
+  전용 84㎡ A·B·C 타입 중심 설계와 커뮤니티, 조경 특화로
+  실거주 만족도를 높이는 프리미엄 주거 가치를 제안합니다.
 </p>
 
 <div className={styles.textBox}>
-  <div>이천의 새로운 기준 위에</div>
-  <div>천안 두산위브 더제니스의 프리미엄을 누리세요.</div>
+  <div>천안 청당동 중심에서</div>
+  <div>두산위브 더제니스의 프리미엄을 누리세요.</div>
 </div>
 
-
-
-      <img
-        src={page1}
-        className={styles.image3}
-        alt="천안 두산위브 더제니스 프리미엄 이미지1"
-      />
-
+<img
+  src={page1}
+  className={styles.image3}
+  alt="천안 두산위브 더제니스 프리미엄 이미지1"
+/>
       <Footer />
     </div>
   );

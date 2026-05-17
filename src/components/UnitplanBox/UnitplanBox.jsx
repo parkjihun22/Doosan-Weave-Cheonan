@@ -5,7 +5,7 @@ import styles from "./UnitplanBox.module.scss";
 import room84A from "../../assets/UnitplanBox/unit_84a.jpg";
 import room84B from "../../assets/UnitplanBox/unit_84b.jpg";
 import room84C from "../../assets/UnitplanBox/unit_84c.jpg";
-import room122 from "../../assets/UnitplanBox/unit_122.jpg";
+// import room122 from "../../assets/UnitplanBox/unit_122.jpg";
 // import room84A from "../../assets/UnitplanBox/unit_84a.jpg";
 // import room119A from "../../assets/UnitplanBox/unit_84d.jpg";
 
@@ -14,7 +14,7 @@ const contents = [
     { type: "84A㎡",   src: room84A },
     { type: "84B㎡",   src: room84B },
     { type: "84C㎡",  src: room84C },
-    { type: "122㎡",  src: room122 },
+    // { type: "122㎡",  src: room122 },
 
   ];
 

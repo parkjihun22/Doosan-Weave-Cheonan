@@ -51,54 +51,54 @@ const ComplexGuide1 = () => {
 
   return (
     <div className={styles.container}>
-<Helmet>
-  <title>천안 두산위브 더제니스 - 동·호수 배치</title>
-  <meta
-    name="description"
-    content="천안 두산위브 더제니스 동·호수 배치도를 통해 세대별 위치, 조망, 일조 방향, 프라이버시 고려 설계를 확인하세요. 라인·스택 구성과 코어 동선도 안내합니다."
-  />
-  <link rel="canonical" href="https://www.lotte-castl.co.kr/ComplexGuide/detailintro" />
-  <meta name="robots" content="index,follow" />
+    <Helmet>
+      <title>천안 두산위브 더제니스 - 동·호수 배치</title>
+      <meta
+        name="description"
+        content="천안 두산위브 더제니스 동·호수 배치도를 통해 10개동 단지 구성, 세대별 위치, 조망, 일조 방향, 프라이버시와 동선을 확인하세요."
+      />
+      <link rel="canonical" href="https://www.doosanweavethezenith.co.kr/ComplexGuide/detailintro" />
+      <meta name="robots" content="index,follow" />
 
-  {/* Open Graph */}
-  <meta property="og:type" content="website" />
-  <meta property="og:site_name" content="천안 두산위브 더제니스" />
-  <meta property="og:title" content="천안 두산위브 더제니스 - 동·호수 배치" />
-  <meta
-    property="og:description"
-    content="세대별 위치, 조망·일조, 프라이버시를 고려한 동·호수 배치를 확인하세요. 라인·스택 구성과 코어 동선도 한눈에 확인 가능합니다."
-  />
-  <meta property="og:url" content="https://www.lotte-castl.co.kr/ComplexGuide/detailintro" />
-  <meta property="og:image" content="https://www.lotte-castl.co.kr/img/og/complex.jpg" />
-</Helmet>
+      {/* Open Graph */}
+      <meta property="og:type" content="website" />
+      <meta property="og:site_name" content="천안 두산위브 더제니스" />
+      <meta property="og:title" content="천안 두산위브 더제니스 - 동·호수 배치" />
+      <meta
+        property="og:description"
+        content="천안 두산위브 더제니스의 동별 위치, 세대별 조망·일조, 라인 구성과 코어 동선을 확인하세요."
+      />
+      <meta property="og:url" content="https://www.doosanweavethezenith.co.kr/ComplexGuide/detailintro" />
+      <meta property="og:image" content="https://www.doosanweavethezenith.co.kr/img/og/complex.jpg" />
+    </Helmet>
 
-<Header isChanged={isScroll} />
-<FixIcon />
-<Bener title="단지안내" />
-<MenuBar contents={menuContents} />
+    <Header isChanged={isScroll} />
+    <FixIcon />
+    <Bener title="단지안내" />
+    <MenuBar contents={menuContents} />
 
-<h1 className={styles.screenReaderOnly}>
-  천안 두산위브 더제니스 - 동·호수 배치
-</h1>
-<p className={styles.screenReaderOnly}>
-  본 페이지는 천안 두산위브 더제니스의 동·호수 배치 정보를 제공합니다.
-  세대별 위치와 조망, 일조, 프라이버시를 고려한 설계, 라인·스택 구성,
-  코어(엘리베이터·계단) 동선 등을 확인하고 원하는 호수를 빠르게 비교해보세요.
-</p>
+    <h1 className={styles.screenReaderOnly}>
+      천안 두산위브 더제니스 - 동·호수 배치
+    </h1>
+    <p className={styles.screenReaderOnly}>
+      본 페이지는 천안 두산위브 더제니스의 동·호수 배치 정보를 제공합니다.
+      총 1,202세대, 10개동 규모의 단지에서 세대별 위치와 조망, 일조 방향,
+      프라이버시를 고려한 배치, 라인 구성과 코어 동선을 확인하고
+      원하는 동·호수를 비교해보세요.
+    </p>
 
-<div className={styles.textBox}>
-  <div>이천의 새로운 기준 위에</div>
-  <div>천안 두산위브 더제니스가 자부심으로 찾아옵니다.</div>
-</div>
+    <div className={styles.textBox}>
+      <div>천안 청당동 중심에 완성되는</div>
+      <div>두산위브 더제니스의 세대별 프리미엄</div>
+    </div>
 
-
-      {/* 이미지에 애니메이션 효과 추가 */}
-      <img
-				className={`${styles.image2} ${isImage2Loaded ? styles.showImage2 : ''}`}
-				src={page1}
-				alt="천안 두산위브 더제니스호수배치도-image1"
-				onLoad={handleImageLoad}  // 이미지 로드 후 애니메이션 실행
-			/>
+    {/* 이미지에 애니메이션 효과 추가 */}
+    <img
+      className={`${styles.image2} ${isImage2Loaded ? styles.showImage2 : ''}`}
+      src={page1}
+      alt="천안 두산위브 더제니스 호수배치도-image1"
+      onLoad={handleImageLoad}
+    />
 
 
   

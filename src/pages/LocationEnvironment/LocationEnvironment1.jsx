@@ -22,42 +22,41 @@ import HelmetCOM from "../../components/HelmetCOM/HelmetCOM";
 const LocationSection = [
   {
     img: section2Image1,
-    titleText: "이천 도심개발 수혜<br />더 높아지는 미래가치",
+    titleText: "청당동 중심 생활권<br />더 높아지는 미래가치",
     contentText:
-      "이천시청·CGV·로데오거리 등 중심 상권 인접<br />중리지구·터미널 일대 개발 수혜 기대",
+      "청수행정타운 생활권과 연계되는 중심 입지<br />천안 핵심 생활권 개발 수혜 기대",
   },
   {
     img: section2Image2,
-    titleText: "이천의료원 중심<br />안심 의료 프리미엄",
+    titleText: "생활·행정 인프라 가까운<br />원스톱 프리미엄",
     contentText:
-      "이천의료원·종합병원 등 의료 인프라 근접<br />노약자·어린이도 안심할 수 있는 건강환경",
+      "행정기관·의료시설·생활편의시설 인접<br />편리한 일상을 누리는 주거환경",
   },
   {
     img: section2Image3,
-    titleText: "중부고속도로·제2순환도로 인접<br />서울·수도권 빠른 연결",
+    titleText: "남천안IC·천안JC 인접<br />광역 교통 프리미엄",
     contentText:
-      "중부고속도로, 성남~이천간 자동차전용도로<br />송정IC·마장택지지구 인근, 교통 접근성 우수",
+      "천안대로, 남천안IC, 천안JC 등 편리한 교통망<br />천안 도심 및 수도권 이동 접근성 강화",
   },
   {
     img: section2Image4,
     titleText: "풍부한 생활 인프라<br />원스톱 라이프 완성",
     contentText:
-      "이마트·하나로마트·병의원·카페거리 도보권<br />중리·마장지구 중심 주거 인프라 밀집",
+      "대형마트·병원·행정시설·상업시설 이용 편리<br />청당동 생활권 중심 인프라 확보",
   },
   {
     img: section2Image5,
-    titleText: "브랜드 대단지의 자부심<br />1,325세대 롯데캐슬",
+    titleText: "총 1,202세대 브랜드 대단지<br />두산위브 더제니스",
     contentText:
-      "지하 2층~지상 25층, 21개동 대단지 구성<br />피트니스·골프연습장·작은도서관 등 커뮤니티 특화",
+      "지하 2층~지상 최고 29층, 총 10개동 구성<br />전용 84㎡ A·B·C 타입 중심 설계",
   },
   {
     img: section2Image6,
-    titleText: "자연과 도시의 조화<br />쾌적한 주거 힐링 환경",
+    titleText: "도시와 자연을 함께 누리는<br />쾌적한 주거 환경",
     contentText:
-      "설봉공원·이천 온천·산책로 등 자연 인프라 인접<br />녹지공간과 여유로운 주말 라이프",
+      "공원과 녹지공간이 어우러진 쾌적한 생활환경<br />여유로운 일상을 누리는 프리미엄 주거가치",
   },
 ];
-
 
 
 
@@ -99,10 +98,10 @@ const LocationEnvironment1 = () => {
   <title>천안 두산위브 더제니스 - 입지환경</title>
   <meta
     name="description"
-    content="이천 도심 중심 입지, 천안 두산위브 더제니스의 입지환경을 확인하세요. 중부고속도로·송정IC, 이천시청·이마트·종합병원 등 생활 인프라와 설봉공원·온천 등 자연환경까지."
+    content="천안 두산위브 더제니스 입지환경을 확인하세요. 청당동 중심 입지와 청수행정타운 생활권, 천안대로·남천안IC·천안JC 광역교통망, 교육·생활 인프라를 안내합니다."
   />
   <meta name="robots" content="index,follow" />
-  <link rel="canonical" href="https://www.lotte-castl.co.kr/LocationEnvironment/intro" />
+  <link rel="canonical" href="https://www.doosanweavethezenith.co.kr/LocationEnvironment/intro" />
 
   {/* Open Graph */}
   <meta property="og:type" content="website" />
@@ -110,10 +109,10 @@ const LocationEnvironment1 = () => {
   <meta property="og:title" content="천안 두산위브 더제니스 - 입지환경" />
   <meta
     property="og:description"
-    content="중부고속도로·송정IC, 이천시청·종합병원·하나로마트 등 생활 인프라와 설봉공원·이천온천까지 누리는 이천 도심 입지의 롯데캐슬 3차."
+    content="청당동 중심 입지, 청수행정타운 생활권, 천안대로·남천안IC·천안JC 광역교통망을 누리는 천안 두산위브 더제니스 입지환경."
   />
-  <meta property="og:url" content="https://www.lotte-castl.co.kr/LocationEnvironment/intro" />
-  <meta property="og:image" content="https://www.lotte-castl.co.kr/img/og/location.jpg" />
+  <meta property="og:url" content="https://www.doosanweavethezenith.co.kr/LocationEnvironment/intro" />
+  <meta property="og:image" content="https://www.doosanweavethezenith.co.kr/img/og/location.jpg" />
   <meta property="og:image:width" content="1200" />
   <meta property="og:image:height" content="630" />
 
@@ -122,10 +121,10 @@ const LocationEnvironment1 = () => {
   <meta name="twitter:title" content="천안 두산위브 더제니스 - 입지환경" />
   <meta
     name="twitter:description"
-    content="이천 도심 입지와 교통·생활 인프라를 두루 갖춘 천안 두산위브 더제니스의 입지환경을 확인하세요. 송정IC, 중리·마장지구 인접, 공공·자연 인프라까지."
+    content="천안 청당동 중심 입지와 청수행정타운, 광역교통망, 교육·생활 인프라를 갖춘 천안 두산위브 더제니스 입지환경을 확인하세요."
   />
-  <meta name="twitter:image" content="https://www.lotte-castl.co.kr/img/og/location.jpg" />
-  <meta name="twitter:url" content="https://www.lotte-castl.co.kr/LocationEnvironment/intro" />
+  <meta name="twitter:image" content="https://www.doosanweavethezenith.co.kr/img/og/location.jpg" />
+  <meta name="twitter:url" content="https://www.doosanweavethezenith.co.kr/LocationEnvironment/intro" />
 
   {/* JSON-LD (대표 이미지/브레드크럼 포함) */}
   <script type="application/ld+json">
@@ -133,20 +132,20 @@ const LocationEnvironment1 = () => {
       "@context": "https://schema.org",
       "@type": "WebPage",
       "name": "천안 두산위브 더제니스 - 입지환경",
-      "url": "https://www.lotte-castl.co.kr/LocationEnvironment/intro",
+      "url": "https://www.doosanweavethezenith.co.kr/LocationEnvironment/intro",
       "description":
-        "이천시 도심 중심 입지, 송정IC와 중부고속도로 교통망, 이천시청·이마트·이천의료원 등 생활 인프라, 설봉공원과 온천까지 누리는 쾌적한 입지환경.",
+        "천안 두산위브 더제니스 입지환경 페이지입니다. 청당동 중심 입지와 청수행정타운 생활권, 천안대로·남천안IC·천안JC 광역교통망, 교육·생활 인프라를 안내합니다.",
       "primaryImageOfPage": {
         "@type": "ImageObject",
-        "contentUrl": "https://www.lotte-castl.co.kr/img/og/location.jpg",
+        "contentUrl": "https://www.doosanweavethezenith.co.kr/img/og/location.jpg",
         "width": 1200,
         "height": 630
       },
       "breadcrumb": {
         "@type": "BreadcrumbList",
         "itemListElement": [
-          { "@type": "ListItem", "position": 1, "name": "홈", "item": "https://www.lotte-castl.co.kr/" },
-          { "@type": "ListItem", "position": 2, "name": "입지환경", "item": "https://www.lotte-castl.co.kr/LocationEnvironment/intro" }
+          { "@type": "ListItem", "position": 1, "name": "홈", "item": "https://www.doosanweavethezenith.co.kr/" },
+          { "@type": "ListItem", "position": 2, "name": "입지환경", "item": "https://www.doosanweavethezenith.co.kr/LocationEnvironment/intro" }
         ]
       }
     })}
@@ -164,25 +163,23 @@ const LocationEnvironment1 = () => {
   천안 두산위브 더제니스 - 입지안내
 </h1>
 <p className={styles.screenReaderOnly}>
-  천안 두산위브 더제니스의 입지 정보를 확인하세요. 중부고속도로·송정IC와
-  중리·마장지구 중심 생활권, 이천시청·이마트·종합병원 등 생활 인프라,
-  설봉공원과 이천온천까지 자연환경을 갖춘 도심 입지입니다.
+  천안 두산위브 더제니스의 입지 정보를 확인하세요.
+  충청남도 천안시 동남구 청당동 310-6번지 일원에 조성되는 브랜드 대단지로,
+  청수행정타운 생활권과 천안대로, 남천안IC, 천안JC 등 광역 교통망을 이용할 수 있습니다.
+  교육, 생활, 행정 인프라를 가까이 누리는 천안 청당동 중심 입지입니다.
 </p>
 
 <div className={styles.textBox}>
-  <div>이천의 중심에서</div>
-  <div>삶의 가치가 오르는 곳</div>
+  <div>천안 청당동 중심에서</div>
+  <div>생활의 가치가 높아지는 곳</div>
   <div>천안 두산위브 더제니스가 자부심으로 찾아옵니다.</div>
 </div>
 
-
-
-      <img
-        src={page1}
-        className={styles.image2}
-        alt="천안 두산위브 더제니스입지환경-image1"
-      />
-
+<img
+  src={page1}
+  className={styles.image2}
+  alt="천안 두산위브 더제니스 입지환경-image1"
+/>
       <div className={styles.section2}>
         {LocationSection.map((value, idx) => (
           <LocationSectionBox

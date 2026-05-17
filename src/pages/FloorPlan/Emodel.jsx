@@ -46,58 +46,68 @@ const Emodel = () => {
   return (
     <div className={styles.container}>
 <Helmet>
-  {/* 핵심 SEO 페이지: 84A */}
-  <title>천안 두산위브 더제니스 - 84A</title>
+  {/* 핵심 SEO 페이지: E-모델하우스 */}
+  <title>천안 두산위브 더제니스 - E-모델하우스</title>
   <meta
     name="description"
-    content="천안 두산위브 더제니스 84A를 온라인에서 편리하게 둘러보세요. VR 가상 투어와 전용 84A·84B·122㎡ 세대별 평면도, 인테리어를 실감 나게 확인하실 수 있습니다."
+    content="천안 두산위브 더제니스 E-모델하우스를 온라인에서 확인하세요. VR 가상 투어를 통해 전용 84㎡ A·B·C 타입 평면과 공간 구성, 인테리어를 생생하게 둘러볼 수 있습니다."
   />
   <meta name="robots" content="index,follow" />
-  <link rel="canonical" href="https://www.lotte-castl.co.kr/FloorPlan/Emodel" />
+  <link rel="canonical" href="https://www.doosanweavethezenith.co.kr/FloorPlan/Emodel" />
 
   {/* Open Graph */}
   <meta property="og:type" content="website" />
   <meta property="og:site_name" content="천안 두산위브 더제니스" />
-  <meta property="og:title" content="천안 두산위브 더제니스 - 84A" />
+  <meta property="og:title" content="천안 두산위브 더제니스 - E-모델하우스" />
   <meta
     property="og:description"
-    content="VR 투어와 전용 84A·84B·122㎡ 평면도, 인테리어를 통해 실제 같은 공간을 체험해보세요."
+    content="VR 가상 투어를 통해 천안 두산위브 더제니스 전용 84㎡ A·B·C 타입의 공간 구성과 인테리어를 확인하세요."
   />
-  <meta property="og:url" content="https://www.lotte-castl.co.kr/FloorPlan/Emodel" />
-  <meta property="og:image" content="https://www.lotte-castl.co.kr/img/og/emodel.jpg" />
+  <meta property="og:url" content="https://www.doosanweavethezenith.co.kr/FloorPlan/Emodel" />
+  <meta property="og:image" content="https://www.doosanweavethezenith.co.kr/img/og/emodel.jpg" />
   <meta property="og:image:width" content="1200" />
   <meta property="og:image:height" content="630" />
 
   {/* Twitter */}
   <meta name="twitter:card" content="summary_large_image" />
-  <meta name="twitter:title" content="천안 두산위브 더제니스 - 84A" />
+  <meta name="twitter:title" content="천안 두산위브 더제니스 - E-모델하우스" />
   <meta
     name="twitter:description"
-    content="천안 두산위브 더제니스 VR 모델하우스를 통해 세대별 평면과 인테리어를 생생하게 체험하세요."
+    content="천안 두산위브 더제니스 E-모델하우스에서 VR 가상 투어와 세대별 평면 구성을 확인하세요."
   />
-  <meta name="twitter:image" content="https://www.lotte-castl.co.kr/img/og/emodel.jpg" />
-  <meta name="twitter:url" content="https://www.lotte-castl.co.kr/FloorPlan/Emodel" />
+  <meta name="twitter:image" content="https://www.doosanweavethezenith.co.kr/img/og/emodel.jpg" />
+  <meta name="twitter:url" content="https://www.doosanweavethezenith.co.kr/FloorPlan/Emodel" />
 
-  {/* JSON-LD (구조화데이터) */}
+  {/* JSON-LD */}
   <script type="application/ld+json">
     {JSON.stringify({
       "@context": "https://schema.org",
       "@type": "WebPage",
-      "name": "천안 두산위브 더제니스 - 84A",
-      "url": "https://www.lotte-castl.co.kr/FloorPlan/Emodel",
+      "name": "천안 두산위브 더제니스 - E-모델하우스",
+      "url": "https://www.doosanweavethezenith.co.kr/FloorPlan/Emodel",
       "description":
-        "천안 두산위브 더제니스 84A를 온라인에서 편리하게 둘러보세요. VR 가상 투어와 전용 84A·84B·122㎡ 세대별 평면도를 확인할 수 있습니다.",
+        "천안 두산위브 더제니스 E-모델하우스 페이지입니다. VR 가상 투어와 전용 84㎡ A·B·C 타입의 공간 구성 및 인테리어를 확인할 수 있습니다.",
       "primaryImageOfPage": {
         "@type": "ImageObject",
-        "contentUrl": "https://www.lotte-castl.co.kr/img/og/emodel.jpg",
+        "contentUrl": "https://www.doosanweavethezenith.co.kr/img/og/emodel.jpg",
         "width": 1200,
         "height": 630
       },
       "breadcrumb": {
         "@type": "BreadcrumbList",
         "itemListElement": [
-          { "@type": "ListItem", "position": 1, "name": "홈", "item": "https://www.lotte-castl.co.kr/" },
-          { "@type": "ListItem", "position": 2, "name": "84A", "item": "https://www.lotte-castl.co.kr/FloorPlan/Emodel" }
+          {
+            "@type": "ListItem",
+            "position": 1,
+            "name": "홈",
+            "item": "https://www.doosanweavethezenith.co.kr/"
+          },
+          {
+            "@type": "ListItem",
+            "position": 2,
+            "name": "E-모델하우스",
+            "item": "https://www.doosanweavethezenith.co.kr/FloorPlan/Emodel"
+          }
         ]
       }
     })}
@@ -106,20 +116,22 @@ const Emodel = () => {
 
 <Header isChanged={isScroll} />
 <FixIcon />
-<Bener title="84A" />
+<Bener title="E-모델하우스" />
 <MenuBar contents={menuContents} />
 
 <h1 className={styles.screenReaderOnly}>
-  천안 두산위브 더제니스 - 84A
+  천안 두산위브 더제니스 - E-모델하우스
 </h1>
+
 <p className={styles.screenReaderOnly}>
-  천안 두산위브 더제니스 84A를 온라인으로 만나보세요. VR 가상 투어를 통해 세대별 구조와 인테리어를 실제처럼 경험하고,
-  전용 84A·84B·122㎡ 평면도 정보를 간편하게 확인할 수 있습니다.
+  천안 두산위브 더제니스 E-모델하우스를 통해 실제 모델하우스처럼
+  전용 84㎡ A·B·C 타입의 공간 구성과 인테리어를 확인하세요.
+  VR 가상 투어로 세대 구조와 실내 설계를 편리하게 체험할 수 있습니다.
 </p>
 
 <div className={styles.textBox}>
-  <div>현장을 가지 않아도,</div>
-  <div>천안 두산위브 더제니스를 눈앞에서 확인하세요.</div>
+  <div>현장을 가지 않아도</div>
+  <div>천안 두산위브 더제니스를 눈앞에서 만나보세요.</div>
 </div>
 
 

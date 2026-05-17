@@ -668,7 +668,7 @@ const Main = () => {
           <div className={styles.container7}>
             <div className={styles.textBox}>
               <div className={styles.title}>
-                도안의 중심으로 사는
+                천안의 중심으로 사는
                 <br />
                 <span>최고의 브랜드 아파트</span>
               </div>

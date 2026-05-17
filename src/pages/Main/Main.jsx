@@ -601,9 +601,12 @@ const Main = () => {
   <div className={styles.mainImageTextBox1}>
     <div className={styles.mainImageTextSub1}>
       천안 청당동의 새로운 주거 가치<br/>
-      충청남도 천안시 동남구 청당동 310-6번지 일원<br/>
+      총 1,202세대 브랜드 대단지 프리미엄<br/>
       <span className={styles.greyText1}>
-        총 1,202세대 브랜드 대단지 프리미엄
+       계약금 0원 계약축하금 증정
+      </span><br/>
+      <span className={styles.greyText1}>
+       중도금 무이자
       </span>
       <br />
     </div>

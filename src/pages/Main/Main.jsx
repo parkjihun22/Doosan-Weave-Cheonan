@@ -268,7 +268,7 @@ const Main = () => {
       <div className={styles.mainImageLine}></div>
 
       <div className={styles.mainImageText}>
-        두산위브 더제니스 센트럴 천안
+        천안 두산위브 더제니스 
       </div>
 
       <div className={styles.mainImageDesc}>
@@ -610,7 +610,7 @@ const Main = () => {
 
     <div className={styles.mainImageTitleBox1}>
       <div className={styles.mainImageText1}>
-        두산위브 더제니스 센트럴 천안
+      천안 두산위브 더제니스 
       </div>
 
       <div className={styles.mainImageDesc1}>

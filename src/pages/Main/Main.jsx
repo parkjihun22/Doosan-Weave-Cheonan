@@ -53,7 +53,7 @@ const section3Contents = [
     title: "PREMIUM 01",
     text1: `총 1,202세대 브랜드 대단지`,
     text2: `지하 2층~지상 최고 29층 · 총 10개동<br/>
-            천안 청당동 중심에 완성되는 프리미엄 랜드마크`,
+            청당동 중심에 완성되는 프리미엄 랜드마크`,
     link: "/BusinessGuide/intro",
     linkText: "더 알아보기 >",
   },
@@ -614,7 +614,7 @@ const Main = () => {
       </div>
 
       <div className={styles.mainImageDesc1}>
-        충청남도 천안시 동남구 청당동 310-6번지 일원에 들어서는<br/>
+        천안시 동남구 청당동 310-6번지 일원에 들어서는<br/>
         지하 2층 ~ 지상 최고 29층, 총 1,202세대 브랜드 대단지<br/>
         청수행정타운 생활권의 미래가치를 누리다
       </div>

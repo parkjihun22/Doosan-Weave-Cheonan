@@ -34,6 +34,7 @@
     }
 
     .left {
+        font-family: 'Pretendard-Regular';
         display: flex;
         flex-direction: column;
         justify-content: center;
@@ -42,7 +43,7 @@
         margin-left: 6vw;
         z-index: 2;
         color: #fff6ea;
-        font-size: 4vw;
+        font-size: 3vw;
 
         img {
             width: 13vw;
@@ -50,6 +51,7 @@
     }
 
     .subTextleft {
+        font-family: 'Pretendard-Regular';
         display: flex;
         flex-direction: column;
         justify-items: flex-end;
@@ -98,6 +100,7 @@
 }
 
 .rightContainer {
+    font-family: 'Pretendard-Regular';
     display: flex;
     flex-direction: row-reverse;
     justify-content: space-between;
@@ -141,7 +144,7 @@
         margin-right: 6vw;
         z-index: 2;
         color: #fff6ea;
-        font-size: 4vw;
+        font-size: 3vw;
 
         img {
             width: 13vw;
@@ -149,6 +152,7 @@
     }
 
     .subTextright {
+        
         display: flex;
         flex-direction: column;
         justify-items: flex-start;
